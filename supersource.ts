@@ -18,7 +18,7 @@ export interface InsertTextCommandArgs {
 	marker: CSMarkerIdentifier;
 	indentAfterInsert?: boolean;
 }
-
+// changes for 348
 export interface ApplyMarkerCommandArgs {
 	marker: CSMarkerIdentifier;
 }
